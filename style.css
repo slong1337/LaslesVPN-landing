@@ -1,0 +1,639 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 150px ;
+    margin-top: 50px;
+    width: 136px;
+    height: 37px;
+}
+
+.main_hedder {
+    display: flex; 
+    justify-content: space-between ;
+    height: 137px;
+}
+
+.main_hedder_nav { 
+    margin-top: 38px;
+    padding: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav_ellement {
+    margin-right: 40px ;
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.nav_ellement1 {
+    color:#4F5665;
+    text-decoration: none;
+}
+
+.sign_in {
+    margin-top: 50px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.nav_buttons {
+    margin-top: 35px;
+    padding: 10px;
+    margin-right: 150px;
+}
+
+.button_log_in {
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background-color: #fff;
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1 {
+    width: 555px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.lvpn {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.provide {  
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 555px;
+}
+
+.get_started {
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F53838;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.main { 
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 150px; 
+    margin-right: 150px;
+}
+
+.users_main {
+    display: flex;
+    align-items: center;
+}
+
+.location_main {
+    display: flex;
+    align-items: center;
+}
+
+.servers_main {
+    display: flex;
+    align-items: center;
+}
+
+.we_features {  
+    display: flex;
+    justify-content: space-around;
+    margin-left: 241px; 
+    margin-right: 241px;
+    margin-top: 170px;
+}
+
+.feature_big_text {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    margin-bottom: 5px;
+}
+
+.feature_small_text {   
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.img_plusess {    
+    margin-right: 36.5px;
+}
+
+.line {
+    width: 2px;
+    height: 125.573px;
+    background-color: #EEEFF2;
+}
+
+/* конец 2 */
+
+.plushki_main {
+    display: flex;
+    margin-top: 163px;
+}
+
+.plushki_galka {
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+.plushki_img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.plushki_main {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h2 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    width: 383.406px;
+}
+
+.explore {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 427.879px;
+}
+
+.plushki_small_text {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.plushki_block_left {
+    margin-left: 180px;
+    margin-right: 170px;
+}
+
+.plushki_block_right {
+    margin-right: 150px;
+}
+
+/* KONEC */
+
+h3 {
+    width: 383.406px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.choose_your_plan_text {
+    width: 555px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 60px;
+}
+
+.choose_your_plan {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* KONEC*/
+
+.plan_main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text_better {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.better {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.galka_image {
+    width: 24px;
+    height: 24px;
+}
+
+.triiff {
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.triiff_prem {
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fands_pic {
+    padding-top: 80px;
+}
+
+h5 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.button_select {
+    width: 177.876px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    color: #F53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button_select_premium {
+    width: 177.876px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F53838;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.better123123 {
+    display: flex;
+    flex-direction: column;    
+}
+
+.fands_pic {
+    width: 144.904px;
+    height: 165.374px;
+}
+
+.button_and_h_free {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.button_and_h_stund {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.button_and_h_prem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.mo {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* konec */
+
+.huge_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+h6 {
+    width: 383.406px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    margin-bottom: 20px;
+}
+
+.see_location {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 555px;
+    margin-bottom: 155px;
+}
+
+.world_map {
+    width: 1060px;
+    height: 537.771px;
+}
+
+.wmdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.sponsored_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 124px;
+}
+
+/*konec 3 */
+
+.trusted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.zagolovok_trust{
+    width: 447.805px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.text_trust {
+    width: 555px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 60px;
+}
+
+/*konec*/
+
+.feedback_line {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 82px ;
+}
+
+.name_secondname {
+    display: block;
+}
+
+.chel {
+    display: block;
+    width: 400px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+    flex-direction: column;
+}
+
+.upper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.name_feed {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    display: flex;
+    width: 142.022px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.map_feed {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    display: flex;
+    width: 127.338px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.feed_text {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    display: flex;
+    width: 340px;
+    height: 100px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.otz {
+    width: 50px;
+    height: 50px;
+ 
+}
+
+.zvezda {
+    width: 16px;
+    height: 16px;
+}
+
+.ocenka {
+    margin-right: 10px;
+    margin-left: 70px;
+    display: flex;
+    width: 24px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.otz_img {
+    margin-right: 30px;
+}
+
+/*end*/
+
+.subscribe_windows {
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    margin-left: 150px;
+    padding-right: 70px;
+}
+
+.subscribe_h1 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; 
+}
+
+.subscribe_p1 {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscribe_bottom {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+}
+
+.subscribe_p2 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
